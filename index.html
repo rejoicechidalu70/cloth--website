@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>web design </title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">RIRI LUXES </a>
+            </div>
+            <div class="nav__right">
+                <a class="btn" href="login.html">LOGIN</a>
+                <div class="nav__cart" id="cart-btn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <span class="cart__count">0</span>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#catalogue">CATALOGUE</a></li>
+            <li><a href="#fashion">FASHION</a></li>
+            <li><a href="#favourite">FAVOURITE</a></li>
+            <li><a href="#lifestyle">LIFESTYLE</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="section__container header__container">
+            <div class="header__content">
+                <h1>
+                    <span>LET'S</span>
+                    <br />
+                    EXPLORE
+                    <br />
+                    <span>UNIQUE</span>
+                    <br />
+                    CLOTHES.
+                </h1>
+                <p>live to explore beautiful innovative fashion</p>
+                <div class="hearder__btns">
+                    <button class="btn" id="shop-here-btn">Shop Here</button>
+                </div>
+            </div>
+            <div class="header__image">
+                <img src="IMG_E4320.JPG" alt="header">
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner__container">
+            <img src="IMG_E4384.JPG" alt="banner">
+            <img src="IMG_E4386.JPG" alt="banner">
+            <img src="IMG_E4387.JPG" alt="banner">
+            <img src="IMG_E4388.JPG" alt="banner">
+            <img src="IMG_E4390.JPG" alt="banner">
+            <img src="IMG_E4380.JPG" alt="banner">
+            <img src="IMG_E4381.JPG" alt="banner">
+            <img src="IMG_E4382.JPG" alt="banner">
+            <img src="IMG_E4383.JPG" alt="banner">
+            
+        </div>
+
+    </section>
+    <section class="section__container arrival___container" id="catalogue">
+        <h2 class="section__header">NEW COLLECTION</h2>
+        <p class="section__intro">Explore stylish wears for men and women with size, colour, and price options.</p>
+        <div class="arrival__grid">
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4302.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Fancy Grown</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦12,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Fancy Grown" data-price="100000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.27 PM.jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Basic top</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦7,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Fancy Grown" data-price="100000">ADD TO CART</button>
+                    </div>
+                </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.25 PM.jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Basic top</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦7,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Fancy Grown" data-price="100000">ADD TO CART</button>
+                    </div>
+                </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4305.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Shirt & Baggy-Trouser</h4>
+                        <p class="product__category">For </p>
+                        <p class="price">₦21,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Shirt & Baggy-Trouser" data-price="95000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4310.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Night Wears</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦8,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Night Wears" data-price="80000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4304 (1).JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Beach Grown</h4>
+                        <p class="product__category">For women</p>
+                        <p class="price">₦18,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Beach Grown" data-price="85000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.31 PM (1).jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Elegant Lace Dress</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦12,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Elegant Lace Dress" data-price="120000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4309.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Night wear </h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦7,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Classic Denim Jacket" data-price="110000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4315.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>baggy jeans</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦22,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Luxury Ankara Set" data-price="130000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4311.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Yellow Ankara Gown</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦15,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFD700" style="background-color: #FFD700;" title="Gold"></button>
+                            <button class="color-btn" data-color="#8B0000" style="background-color: #8B0000;" title="Maroon"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Yellow Ankara Gown" data-price="105000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="IMG_E4318.JPG" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Shirt and jeans</h4>
+                        <p class="product__category">For woman</p>
+                        <p class="price">₦9,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#808080" style="background-color: #808080;" title="Gray"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#000080" style="background-color: #000080;" title="Navy"></button>
+                            <button class="color-btn" data-color="#C71585" style="background-color: #C71585;" title="Magenta"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Black Streetwear Hoodie" data-price="95000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.27 PM (1).jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>cute basic top</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦7,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF69B4" style="background-color: #FF69B4;" title="Pink"></button>
+                            <button class="color-btn" data-color="#00BFFF" style="background-color: #00BFFF;" title="Sky Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#8B4513" style="background-color: #8B4513;" title="Brown"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Bold Print Maxi" data-price="88000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.27 PM (2).jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Maxi basic top</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦7,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#F4A460" style="background-color: #F4A460;" title="Sandy"></button>
+                            <button class="color-btn" data-color="#2E8B57" style="background-color: #2E8B57;" title="Green"></button>
+                            <button class="color-btn" data-color="#4169E1" style="background-color: #4169E1;" title="Royal Blue"></button>
+                            <button class="color-btn" data-color="#B22222" style="background-color: #B22222;" title="Firebrick"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Summer Print Shirt" data-price="74000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.28 PM.jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Handless basic top</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦8,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#1E90FF" style="background-color: #1E90FF;" title="Dodger Blue"></button>
+                            <button class="color-btn" data-color="#228B22" style="background-color: #228B22;" title="Forest Green"></button>
+                            <button class="color-btn" data-color="#FF8C00" style="background-color: #FF8C00;" title="Dark Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Casual Polo Tee" data-price="65000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrival__card">
+                <div class="arrival__image">
+                    <img src="WhatsApp Image 2026-07-02 at 5.23.31 PM (2).jpeg" alt="arrival">
+                </div>
+                <div class="arrival__content">
+                    <div>
+                        <h4>Basic Shirt and cooprate trouser
+                        </h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦22,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Colour:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#2F4F4F" style="background-color: #2F4F4F;" title="Dark Slate"></button>
+                            <button class="color-btn" data-color="#708090" style="background-color: #708090;" title="Slate Gray"></button>
+                            <button class="color-btn" data-color="#B0C4DE" style="background-color: #B0C4DE;" title="Light Steel Blue"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Modern Tailored Suit" data-price="140000">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sale" id="fashion">
+        <div class="section__container sale__container">
+            <div class="sale__image">
+                <img src="IMG_E4312.JPG" alt="sale">
+            </div>
+            <div class="sale__content">
+                <h2><span>PAYDAY</span><br />SALE NOW</h2>
+                <p>
+                    Spend minimal $100 get 30% off voucher code for your next purchase
+                </p>
+                <h4>1 july - 10 july 2026</h4>
+                <p>* Terms and conditions apply</p>
+                <div class="sale__btn">
+                    <button class="btn">Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container favourite__container" id="favourite">
+        <h2 class="section__header">YOUNG'S FAVOURITE</h2>
+        <div class="favourite__grid">
+            <div class="favourite__card">
+                <div class="favourite__image">
+                    <img src="IMG_E4307.JPG" alt="favourite">
+                </div>
+                <div class="favourite__content">
+                    <div>
+                        <h4>Street Set</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦12,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Color:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Street Set" data-price="85000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="favourite__card">
+                <div class="favourite__image">
+                    <img src="IMG_E4313.JPG" alt="favourite">
+                </div>
+                <div class="favourite__content">
+                    <div>
+                        <h4>shirt and jean </h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦22,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Color:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Relax Fit" data-price="78000">ADD TO CART</button>
+                </div>
+                 <div class="favourite__card">
+                <div class="favourite__image">
+                    <img src="WhatsApp Image 2026-08-22 at 7.42.02 PM.jpeg" alt="favourite">
+                </div>
+                <div class="favourite__content">
+                    <div>
+                        <h4>jean shirt</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦12,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Color:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Relax Fit" data-price="78000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="favourite__card">
+                <div class="favourite__image">
+                    <img src="IMG_4306 (2).PNG" alt="favourite">
+                </div>
+                <div class="favourite__content">
+                    <div>
+                        <h4>Luxury Weekend Wear</h4>
+                        <p class="product__category">For Women</p>
+                        <p class="price">₦22,000</p>
+                    </div>
+                </div>
+                <div class="product__options">
+                    <div class="options__group">
+                        <label>Size:</label>
+                        <div class="size__options">
+                            <button class="size-btn" data-size="XS">XS</button>
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="options__group">
+                        <label>Color:</label>
+                        <div class="color__options">
+                            <button class="color-btn" data-color="#000000" style="background-color: #000000;" title="Black"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background-color: #FF0000;" title="Red"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background-color: #0000FF;" title="Blue"></button>
+                            <button class="color-btn" data-color="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #ccc;" title="White"></button>
+                            <button class="color-btn" data-color="#FFA500" style="background-color: #FFA500;" title="Orange"></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn" data-product="Luxury Weekend Wear" data-price="92000">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container download__container" id="lifesstyle">
+        <div class="download__image">
+            <img src="IMG_E4429.JPG" alt="download">
+        </div>
+
+        <div class="download__content">
+            <h2 class="section__header">DOWNLOAD THE APP & GET THE VOUCHER!</h2>
+            <p>
+                Get 20% off first transaction using our new mobile app for now
+            </p>
+            <div class="download__links">
+                <a href="#">
+                <img src="IMG_E4430.JPG" alt="apple">
+                </a>
+                <a href="#">
+                    <img src="IMG_E4431.JPG" alt="google">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo">
+        <div class="section__container promo__container">
+            <h2 class="section__header">
+                JOIN OUR SHOPPING COMMUNITY AND GET MONTHLY PROMO
+            </h2>
+            <P>Type your email down below if you are the type that like exploring new cloths collection</P>
+            <form action="/">
+                <input type="text" placeholder="Add your email here">
+                <button class="btn">SEND</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#">FASHION</a>
+                </div>
+                <p>complete your style with awesome clothes from us.</p>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </li>
+                     <li>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </li>
+                     <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                     <li>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Quick link To Fashion Home</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Store Location</a></li>
+                    <li><a href="#">Track Orders</a></li>
+                    <li><a href="#">Guide us on size</a></li>
+                    <li><a href="#">CareersFAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>company</h4>
+                <ul class="footer__links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+           </div>
+           </div>
+           <div class="footer__bar">
+            Copyright @ 2026 Web Fashion Design Mastery. All right reserverd.
+           </div>
+       </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart__sidebar" id="cart-sidebar">
+        <div class="cart__header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart-btn" id="close-cart">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="cart__items" id="cart-items">
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="cart__footer">
+            <div class="cart__total">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <button class="btn checkout-btn">PROCEED TO CHECKOUT</button>
+        </div>
+    </div>
+    <div class="cart__overlay" id="cart-overlay"></div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout__modal" id="checkout-modal">
+        <div class="checkout__content">
+            <div class="checkout__header">
+                <h2>Checkout</h2>
+                <button class="close-checkout-btn" id="close-checkout">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            
+            <form class="checkout__form" id="checkout-form">
+                <!-- Order Summary -->
+                <div class="checkout__section">
+                    <h3>Order Summary</h3>
+                    <div class="order__summary" id="order-summary">
+                        <!-- Items will be populated here -->
+                    </div>
+                    <div class="summary__total">
+                        <strong>Total: </strong>
+                        <strong id="checkout-total">$0.00</strong>
+                    </div>
+                </div>
+
+                <!-- Customer Information -->
+                <div class="checkout__section">
+                    <h3>Customer Information</h3>
+                    <div class="form__group">
+                        <label for="fullname">Full Name *</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <!-- Shipping Address -->
+                <div class="checkout__section">
+                    <h3>Shipping Address</h3>
+                    <div class="form__group">
+                        <label for="address">Street Address *</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="city">City *</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="state">State *</label>
+                            <input type="text" id="state" name="state" required>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <label for="zipcode">Zip Code *</label>
+                        <input type="text" id="zipcode" name="zipcode" required>
+                    </div>
+                </div>
+
+                <!-- Payment Information -->
+                <div class="checkout__section">
+                    <h3>Payment Information</h3>
+                    <div class="form__group">
+                        <label for="cardname">Cardholder Name *</label>
+                        <input type="text" id="cardname" name="cardname" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="cardnumber">Card Number *</label>
+                        <input type="text" id="cardnumber" name="cardnumber" placeholder="1234 5678 9012 3456" required>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="expiry">Expiry Date *</label>
+                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="cvv">CVV *</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="checkout__buttons">
+                    <button type="button" class="btn btn--secondary" id="back-to-cart-btn">Back to Cart</button>
+                    <button type="submit" class="btn btn--primary">Complete Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="checkout__overlay" id="checkout-overlay"></div>
+
+    <a class="whatsapp-float" id="whatsapp-float" href="https://wa.me/09131811222" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="ri-whatsapp-line"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
+*** End File

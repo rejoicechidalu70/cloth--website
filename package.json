@@ -1,0 +1,16 @@
+{
+  "name": "cloth-website-backend",
+  "version": "1.0.0",
+  "description": "Backend for the cloth website with login and checkout APIs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

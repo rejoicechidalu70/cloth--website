@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login | Rejoice Cloths Collection</title>
+</head>
+<body>
+    <header class="section__container login__container">
+        <div class="login__card">
+            <div class="login__brand">
+                <a href="index.html">RIRI LUXES</a>,
+            </div>
+            <div class="login__content">
+                <h1>Welcome Back</h1>
+                <p>Sign in to access your account and shop the latest collection.</p>
+                <form class="login__form" id="login-form">
+                    <div class="form__group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <button class="btn" type="submit">LOGIN</button>
+                </form>
+                <div class="signup-link">
+                    <p>New here? <a href="index.html">Sign up now</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const apiUrl = window.location.protocol === 'file:'
+            ? 'http://localhost:3000/api/login'
+            : '/api/login';
+
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (!email || !password) {
+                alert('Please enter your email and password.');
+                return;
+            }
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password }),
+                });
+
+                const result = await response.json().catch(() => ({
+                    success: false,
+                    message: 'The server returned an invalid response.'
+                }));
+
+                if (response.ok && result.success) {
+                    alert(result.message || 'Login successful.');
+                    window.location.href = 'index.html';
+                    return;
+                }
+
+                if (result.message) {
+                    alert(result.message);
+                    return;
+                }
+
+                throw new Error('Login failed.');
+            } catch (error) {
+                console.error(error);
+                alert('Login is unavailable right now. You will be redirected to the shop in demo mode.');
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+
+    <a class="whatsapp-float" id="whatsapp-float" href="https://wa.me/09131811222" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="ri-whatsapp-line"></i>
+    </a>
+</body>
+</html>
